@@ -10,5 +10,12 @@ Google スプレッドシート「祝日リスト」を自動的に更新する 
 #### Trigger Event
 例: 時間主導型 / 月ベースのタイマー / 1日 / 午前 0 時～1 時
 
+## Order of gs files
+以下の順番でスクリプト エディタに配置
+- main.gs
+- class/sheet.gs
+- class/datetime.gs
+- global.gs
+
 ## Blog URL
 https://front-works.co.jp/blog/gas-holidays/
