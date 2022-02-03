@@ -13,26 +13,26 @@ class Datetime {
   }
 
   /**
- * Class Date から委譲されたメソッド
- */
+   * Class Date から委譲されたメソッド
+   */
   getFullYear() { return this.date.getFullYear(); }
   getMonth() { return this.date.getMonth(); }
 
   /**
-   * 12 月かどうかを判定するメソッド
-   * @return {boolean} 12 月かどうか
+   * 対象月かどうかを判定するメソッド
+   * @param {number} month - 対象月
+   * @return {boolean} 対象月かどうか
    */
-  shouldRun() {
-    const month = this.getMonth() + 1;
-    return month === 12;
+  isMonth(month) {
+    return this.getMonth() + 1 === month;
   }
 
   /**
- * 指定のフォーマットで日付を文字列化する静的メソッド
- * @param {Date} d - Date オブジェクト 文字列型も可
- * @param {string} format - フォーマットする形式
- * @return {string} フォーマットされた文字列型の日付
- */
+   * 指定のフォーマットで日付を文字列化する静的メソッド
+   * @param {Date} d - Date オブジェクト 文字列型も可
+   * @param {string} format - フォーマットする形式
+   * @return {string} フォーマットされた文字列型の日付
+   */
   static format(d = new Date(), format = 'yyyy/MM/dd') {
     const date = new Date(d);
     const strDate = Utilities.formatDate(date, 'JST', format);
