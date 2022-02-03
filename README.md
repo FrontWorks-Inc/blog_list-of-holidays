@@ -1,4 +1,4 @@
-# it_list-of-holidays
+# blog_list-of-holidays
 Google スプレッドシート「祝日リスト」を自動的に更新する Google Apps Script
 - Google カレンダー「日本の祝日」情報を取得する
 - 自身で定義した会社指定休日を設定する
