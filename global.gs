@@ -6,6 +6,8 @@
 /**
  * グローバル定数宣言
  */
-/** @type {Datetime} */
+/** @type {SpreadsheetApp.Spreadsheet} */
 const SS = SpreadsheetApp.getActiveSpreadsheet();
-const DT = new Datetime();
+
+/** @type {Datetime} */
+const DT = DATETIME;

@@ -46,9 +46,9 @@ class Sheet {
   }
 
   /**
- * ヘッダー行を除いたレコード部分を取得するメソッド
- * @return {Array.<Array.<number|string|boolean|Date>>} レコード
- */
+   * ヘッダー行を除いたレコード部分を取得するメソッド
+   * @return {Array.<Array.<number|string|boolean|Date>>} レコード
+   */
   getDataValues() {
     if (this.dataValues_ !== undefined) return this.dataValues_;
     const values = this.getDataRangeValues();
@@ -58,9 +58,9 @@ class Sheet {
   }
 
   /**
- * シートの値すべて取得するメソッド
- * @return {Array.<Array.<number|string|boolean|Date>>} シートの値
- */
+   * シートの値すべて取得するメソッド
+   * @return {Array.<Array.<number|string|boolean|Date>>} シートの値
+   */
   getDataRangeValues() {
     if (this.dataRangeValues_ !== undefined) return this.dataRangeValues_;
     const dataRangeValues = this.getDataRange().getValues();
