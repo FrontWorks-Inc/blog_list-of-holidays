@@ -16,6 +16,7 @@ Google スプレッドシート「祝日リスト」を自動的に更新する 
 - class/sheet.gs
 - class/holiday.gs
 - class/datetime.gs
+- class/trigger-time-event
 - global.gs
 
 ## Blog URL
