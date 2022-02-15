@@ -8,6 +8,3 @@
  */
 /** @type {SpreadsheetApp.Spreadsheet} */
 const SS = SpreadsheetApp.getActiveSpreadsheet();
-
-/** @type {Datetime} */
-const DT = DATETIME;

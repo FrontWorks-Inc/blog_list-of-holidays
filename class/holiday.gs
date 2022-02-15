@@ -9,7 +9,7 @@ class HolidayCalendar {
    * @param {number} year - 対象となる年
    * @param {CalendarApp.Calendar} calendar - 祝日カレンダー 
    */
-  constructor(year = DT.getFullYear(), calendar = CalendarApp.getCalendarById('ja.japanese#holiday@group.v.calendar.google.com')) {
+  constructor(year, calendar = CalendarApp.getCalendarById('ja.japanese#holiday@group.v.calendar.google.com')) {
     /** @type {number} */
     this.year = year;
     /** @type {CalendarApp.Calendar} */
