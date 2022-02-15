@@ -14,7 +14,7 @@ Google スプレッドシート「祝日リスト」を自動的に更新する 
 以下の順番でスクリプト エディタに配置
 - main.gs
 - class/sheet.gs
-- class/holiday.gs
+- class/holiday-calendar.gs
 - class/datetime.gs
 - class/trigger-time-event
 - global.gs
